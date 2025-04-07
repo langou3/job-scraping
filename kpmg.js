@@ -8,9 +8,9 @@ const year = now.getFullYear();
 const month = String(now.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
 const day = String(now.getDate()).padStart(2, '0');
 
-
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://difanw08:X8vEt2bz5V1xRnzN@difandb.qnzgrip.mongodb.net/?retryWrites=true&w=majority&appName=difanDB";
+const uri = "";
+
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
   serverApi: {
