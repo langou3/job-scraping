@@ -1,6 +1,24 @@
 const kpmgConfig = require("./kpmgConfig"); // Import the config
 const fs = require('fs');
+const AWS = require('aws-sdk');
 
+const s3 = new AWS.S3();
+const now = new Date();
+const year = now.getFullYear();
+const month = String(now.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+const day = String(now.getDate()).padStart(2, '0');
+
+
+const { MongoClient, ServerApiVersion } = require('mongodb');
+const uri = "mongodb+srv://difanw08:X8vEt2bz5V1xRnzN@difandb.qnzgrip.mongodb.net/?retryWrites=true&w=majority&appName=difanDB";
+// Create a MongoClient with a MongoClientOptions object to set the Stable API version
+const client = new MongoClient(uri, {
+  serverApi: {
+    version: ServerApiVersion.v1,
+    strict: true,
+    deprecationErrors: true,
+  }
+});
 
 async function maxJobSize() {
   try {
@@ -31,8 +49,7 @@ async function jobInfo(maxSize) {
     const jobPosts = await searchResult.json();
     console.log("Jobs Data:", jobPosts.data);
     console.log("Jobs length:", jobPosts.data.length);
-    const jobDescrpition =  jobPosts.data.job_description;
-
+    
     return jobPosts.data;
   } catch (error) {
     console.error("Test failed:", error);
@@ -41,7 +58,6 @@ async function jobInfo(maxSize) {
 }
 
 async function uniInterface(job) {
-  console.log("uniInterface");
   return {
     job_title: job.job_title,
     company: job.company,
@@ -58,7 +74,7 @@ async function uniInterface(job) {
 }
 
 
-async function saveRaw(jobPosts) {
+async function saveS3(jobPosts) {
   console.log(jobPosts.length);
   if (jobPosts.length > 0) {
     const transformedJobs = await Promise.all(
@@ -66,25 +82,64 @@ async function saveRaw(jobPosts) {
          uniInterface(item)) 
     );
     console.log(transformedJobs)
-    const outputPath = 'JobPosts.json';
+
+    const params = {
+      Bucket: 'difan-job-scrape',
+      Key: `data/${year}/${month}/${day}/file.json`, // Partitioned path
+      Body: JSON.stringify(transformedJobs, null, 2),
+      ContentType: 'application/json'
+    };
+
+    // For AWS SDK v2
+    s3.upload(params, function(err, data) {
+      if (err) console.error(err);
+      else console.log('Upload success:', data.Location);
+    });
+
+  }
+}
+
+async function saveMongoDB(searchJobs) {
+  try {
+    // Connect the client to the server	(optional starting in v4.7)
+    await client.connect();
+
+    const dbName = "scraped_jobs";
+    const collectionName = "kpmg";
+  
+    // Create references to the database and collection in order to run
+    // operations on them.
+    const database = client.db(dbName);
+    const collection = database.collection(collectionName);
+
+    const transformedJobs = await Promise.all(
+      searchJobs.map(item =>
+         uniInterface(item)) 
+    );
     
-    await fs.writeFile(
-        outputPath,
-        JSON.stringify(transformedJobs, null, 2),
-        { encoding: 'utf-8' }, 
-        (err) => {           
-          if (err) throw err;
-          console.log('File successfully saved.');
-        }
-      );
+    // Insert the JSON data
+    let result;
+    if (Array.isArray(transformedJobs)) {
+      // If JSON is an array, insert multiple documents
+      result = await collection.insertMany(transformedJobs);
+    } else {
+      // If JSON is an object, insert a single document
+      result = await collection.insertOne(transformedJobs);
+    }
+    console.log("Successfully saved to MongoDb");
+
+  } finally {
+    // Ensures that the client will close when you finish/error
+    await client.close();
   }
 }
 
 async function main() {
   try {
-    const searchJobs = await jobInfo(1); // 确保用 await
+    const searchJobs = await jobInfo(2); // 确保用 await
     // console.log(searchJobs.length);
-    // saveRaw(searchJobs);
+    saveS3(searchJobs); 
+    saveMongoDB(searchJobs);
   } catch (error) {
     console.error("Error:", error);
   }
