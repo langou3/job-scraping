@@ -3,6 +3,7 @@ const kpmgScraper = require("./kpmg/kpmgScraper"); // Import the config
 const fs = require('fs');
 const AWS = require('aws-sdk');
 const { MongoClient, ServerApiVersion } = require('mongodb');
+const _ = require('lodash');
 
 // 初始化AWS服务
 // const s3 = new AWS.S3();
@@ -67,15 +68,63 @@ const transformJob = (job) => {
   if (
     !isValidString(job.job_title) ||
     !isValidString(job.company) ||
-    !isValidString(job.location?.city) ||
+    !isValidString(job.city) ||
     !isValidString(stripHtml(job.job_description)) ||
-    !isValidCity(job.location.city) 
+    !isValidCity(job.city) 
   ) {
     return null;
   }
   return job;
 }
 
+
+async function updateJobs(collection, newJobs) {
+  const newApplyLinks = new Set(newJobs.map(job => job.apply_url));
+  for (const job of newJobs) {
+      const applyLink = job.apply_url;
+      console.log(applyLink);
+
+      const existingJob = await collection.findOne({ apply_url: applyLink});
+      console.log(existingJob);
+      if (existingJob) {
+          const changes = {};
+          for (const key of Object.keys(job)) {
+            if (key === 'scraped_at') continue;
+              if (existingJob[key] !== job[key]) {
+                  console.log(existingJob[key]);
+                  console.log(job[key]);
+
+                  changes[key] = job[key];
+              }
+          }
+
+          if (Object.keys(changes).length > 0) {
+              await collection.updateOne(
+                  { apply_url: applyLink},
+                  { $set: changes }
+              );
+              console.log(`Successfully update${job.job_title} in ${job.company}: ${Object.keys(changes).join(', ')}`);
+          } 
+      } else {
+          await collection.insertOne(job);
+      }
+  }
+}
+
+async function deleteExpiredJobs(collection, newJobs) {
+  const companyName = newJobs[0].company;
+  const newApplyLinks = new Set(newJobs.map(job => job.apply_url));
+
+  const existingJobs = await collection.find({ company:  companyName}).toArray();
+  const existingApplyLinks = new Set(existingJobs.map(job => job.apply_url));
+
+  const expiredApplyLinks = Array.from(existingApplyLinks).filter(link => !newApplyLinks.has(link));
+
+  for (const applyLink of expiredApplyLinks) {
+      const result = await collection.deleteOne({ apply_url: applyLink });
+  }
+  console.log(`${expiredApplyLinks.length} expired Jobs have been deleted`);
+}
 
 async function saveMongoDB(jobs) {
   try {
@@ -84,30 +133,10 @@ async function saveMongoDB(jobs) {
 
     const collection = db.collection(collectionName);
 
-    // const transformedJobs = await Promise.all(
-    //   searchJobs.map(item =>
-    //      uniInterface(item)) 
-    // );
-
     await collection.createIndex({ apply_url: 1 }, { unique: true });
 
-    // Insert the JSON data
-    let result;
-    if (Array.isArray(jobs)) {
-      // If JSON is an array, insert multiple documents
-      try {
-
-        result = await collection.insertMany(jobs,{ ordered: false });
-      }catch (err) {
-        if (err.code === 11000) {
-          console.log("Some duplicates were skipped.");
-        }
-      }
-    } else {
-      // If JSON is an object, insert a single document
-      result = await collection.insertOne(jobs, { ordered: false });
-    }
-    console.log("Successfully saved to MongoDb");
+    await updateJobs(collection, jobs);
+    await deleteExpiredJobs(collection, jobs);
 
   } finally {
     // Ensures that the client will close when you finish/error
@@ -121,7 +150,6 @@ async function main() {
     const searchJobs = await scraper.startScraping(); // 确保用 await
     // console.log(searchJobs.length);
     // saveS3(searchJobs); 
-    console.log('Type of searchJobs:',searchJobs);
 
     const cleanedJobs = searchJobs.map(transformJob).filter((job) => job !== null);
 

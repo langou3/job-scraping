@@ -39,24 +39,21 @@ class kpmgScraper {
         return {
           job_title: job.job_title,
           company: job.company,
-          location : {
-            country:job.job_location_country,
-            city:job.job_location_city,
-            display:job.job_location_display
-          },
+          country:job.job_location_country,
+          city:job.job_location_city,
           job_description: job.job_description,
           apply_url: job.job_url,
-          job_level: job.job_level ? job.job_level.trim() : undefined,
-          job_type: job.job_type ? job.job_type: undefined,
-          salary: job.salary ?  job.salary: undefined,
-          published_at: job.published_date ? job.published_date: undefined,
-          due_at: job.due_date ? job.due_date: undefined,
+          job_level: job.job_level ? job.job_level.trim() : null,
+          job_type: job.job_type ? job.job_type: null,
+          salary: job.salary ?  job.salary: null,
+          published_at: job.published_date ? job.published_date: null,
+          due_at: job.due_date ? job.due_date: null,
           scraped_at: new Date()
         };
       }
 
     async startScraping() {
-        const maxSize  = await this.maxJobSize();
+        // const maxSize  = await this.maxJobSize();
         const jobPosts = await this.jobInfo(1);
 
         const jobFile = JSON.stringify(jobPosts, null, 2)
@@ -88,7 +85,7 @@ class kpmgScraper {
                 }
               )
         }
-        console.log(`KPMG: ${maxSize} jobs have been scraped.`)
+        // console.log(`KPMG: ${maxSize} jobs have been scraped.`)
         const transformedJobs = await Promise.all(
             jobPosts.map(item =>
                 this.uniInterface(item)) 
