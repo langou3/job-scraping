@@ -13,6 +13,8 @@ const month = String(now.getMonth() + 1).padStart(2, '0');
 const day = String(now.getDate()).padStart(2, '0');
 
 const uri = process.env.MONGODB_URI;
+const dbName = "scraped_jobs";
+const collectionName = "kpmg";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -30,17 +32,9 @@ async function connectToDatabase() {
   if (cachedDb) {
     return cachedDb;
   }
-  
-
-  const dbName = "scraped_jobs";
-  const collectionName = "kpmg";
 
   await client.connect();
-
-  // Create references to the database and collection in order to run
-  // operations on them.
   const database = client.db(dbName);
-  const collection = database.collection(collectionName);
 
   return database;
 }
@@ -60,7 +54,6 @@ async function maxJobSize() {
     throw error;
   }
 }
-
 
 async function jobInfo(maxSize) {  
   try {
@@ -141,10 +134,8 @@ async function saveMongoDB(jobPosts) {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     const db = await connectToDatabase();
-    console.log("Connected to database");
 
     const collection = db.collection("kpmg");
-    console.log("Connected to Collection");
 
     const transformedJobs = await Promise.all(
       jobPosts.map(item =>
@@ -154,7 +145,6 @@ async function saveMongoDB(jobPosts) {
     // 添加插入时间戳
     const jobsWithTimestamps = transformedJobs.map(job => ({
       ...job,
-      createdAt: new Date(),
       updatedAt: new Date()
     }));
 
