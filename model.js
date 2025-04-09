@@ -1,10 +1,9 @@
-const kpmgConfig = require("./kpmg/kpmgConfig"); // Import the config
 const kpmgScraper = require("./kpmg/kpmgScraper"); // Import the config
 const fs = require('fs');
 const AWS = require('aws-sdk');
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const _ = require('lodash');
-
+const googleScraper = require("./google/googleScraper");
 // 初始化AWS服务
 // const s3 = new AWS.S3();
 
@@ -146,14 +145,12 @@ async function saveMongoDB(jobs) {
 
 async function main() {
   try {
-    scraper = new kpmgScraper()
-    const searchJobs = await scraper.startScraping(); // 确保用 await
-    // console.log(searchJobs.length);
-    // saveS3(searchJobs); 
+    scraper = new googleScraper();
+    scraper.singlePageScraping();
+    // const searchJobs = await scraper.startScraping(); 
+    // const cleanedJobs = searchJobs.map(transformJob).filter((job) => job !== null);
+    // saveMongoDB(cleanedJobs);
 
-    const cleanedJobs = searchJobs.map(transformJob).filter((job) => job !== null);
-
-    saveMongoDB(cleanedJobs);
   } catch (error) {
     console.error("Error:", error);
   }

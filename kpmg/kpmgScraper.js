@@ -35,7 +35,7 @@ class kpmgScraper {
             return jobPosts.data;
     }
 
-    async uniInterface(job) {
+    uniInterface(job) {
         return {
           job_title: job.job_title,
           company: job.company,

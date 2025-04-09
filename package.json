@@ -12,6 +12,9 @@
   "dependencies": {
     "aws-sdk": "^2.1692.0",
     "lodash": "^4.17.21",
-    "mongodb": "^6.15.0"
+    "mongodb": "^6.15.0",
+    "puppeteer": "^24.6.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
