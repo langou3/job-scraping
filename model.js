@@ -146,7 +146,7 @@ async function saveMongoDB(jobs) {
 async function main() {
   try {
     scraper = new googleScraper();
-    scraper.singlePageScraping();
+    scraper.startScraping();
     // const searchJobs = await scraper.startScraping(); 
     // const cleanedJobs = searchJobs.map(transformJob).filter((job) => job !== null);
     // saveMongoDB(cleanedJobs);
