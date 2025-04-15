@@ -15,7 +15,7 @@ const day = String(now.getDate()).padStart(2, '0');
 
 const uri = "mongodb+srv://difanw08:X8vEt2bz5V1xRnzN@difandb.qnzgrip.mongodb.net/?retryWrites=true&w=majority&appName=difanDB";
 const dbName = "scraped_jobs";
-const collectionName = "kpmg";
+const collectionName = "google";
 
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
@@ -68,7 +68,7 @@ const transformJob = (job) => {
     !isValidString(job.job_title) ||
     !isValidString(job.company) ||
     !isValidString(job.city) ||
-    !isValidString(stripHtml(job.job_description)) ||
+    // !isValidString(stripHtml(job.job_description)) ||
     !isValidCity(job.city) 
   ) {
     return null;
@@ -78,13 +78,13 @@ const transformJob = (job) => {
 
 
 async function updateJobs(collection, newJobs) {
-  const newApplyLinks = new Set(newJobs.map(job => job.apply_url));
+  // const newApplyLinks = new Set(newJobs.map(job => job.apply_url));
   for (const job of newJobs) {
       const applyLink = job.apply_url;
       console.log(applyLink);
 
       const existingJob = await collection.findOne({ apply_url: applyLink});
-      console.log(existingJob);
+
       if (existingJob) {
           const changes = {};
           for (const key of Object.keys(job)) {
@@ -146,10 +146,10 @@ async function saveMongoDB(jobs) {
 async function main() {
   try {
     scraper = new googleScraper();
-    scraper.startScraping();
+    const searchJobs = await scraper.startScraping();
     // const searchJobs = await scraper.startScraping(); 
-    // const cleanedJobs = searchJobs.map(transformJob).filter((job) => job !== null);
-    // saveMongoDB(cleanedJobs);
+    const cleanedJobs = searchJobs.map(transformJob).filter((job) => job !== null);
+    saveMongoDB(cleanedJobs);
 
   } catch (error) {
     console.error("Error:", error);

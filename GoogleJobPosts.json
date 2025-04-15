@@ -1,35 +1,8 @@
 [
   {
-    "job_title": "Program Manager, Google Photos",
-    "company": "Google",
-    "location": "Sydney NSW, Australia",
-    "level": "Mid",
-    "minimum_qualifications": [
-      "Bachelor's degree or equivalent practical experience.",
-      "2 years of experience in program or project management.",
-      "2 years of experience working with data analytics tools and reporting platforms."
-    ],
-    "preferred_qualifications": [
-      "2 years of experience managing cross-functional or cross-team projects.",
-      "Experience with consumer products development.",
-      "Experience in driving programs with third-party partners (e.g., telephone company, original equipment manufactures (OEMs)).",
-      "Ability to operate in a dynamic, fast-paced environment and to manage multiple projects and stakeholders simultaneously.",
-      "Ability to be self-directed in an ambiguous environment."
-    ],
-    "about_the_job": "A problem isn’t truly solved until it’s solved for all. That’s why Googlers build products that help create opportunities for everyone, whether down the street or across the globe. As a Program Manager at Google, you’ll lead complex, multi-disciplinary projects from start to finish — working with stakeholders to plan requirements, manage project schedules, identify risks, and communicate clearly with cross-functional partners across the company. Your projects will often span offices, time zones, and hemispheres. It's your job to coordinate the players and keep them up to date on progress and deadlines. \nGoogle Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user.",
-    "rensponsibilities": [
-      "Prioritize quality assurance requests for new features and regression testing, and evolve processes and improve tooling to drive velocity and efficiency.",
-      "Drive the engineering roadmap for both Google Photos and Google One and release management across both products for Web, Android, and iOS.",
-      "Evolve our roadmap/launch planning and execution programs and processes.",
-      "Work with cross-functional stakeholders across locations to influence priorities and resolve blockers/escalations.",
-      "Build trusted relationships with program stakeholders, including managing expectations of program stakeholders and ensuring they have the insights they need to make effective decisions."
-    ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/138960653426533062-program-manager-google-photos?location=Australia&page=1"
-  },
-  {
     "job_title": "Software Engineer, Photos",
     "company": "Google",
-    "location": "Sydney NSW, Australia",
+    "job_location": "Sydney NSW, Australia",
     "level": "Mid",
     "minimum_qualifications": [
       "Bachelor’s degree or equivalent practical experience.",
@@ -46,7 +19,7 @@
       "Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.",
       "Google Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user."
     ],
-    "rensponsibilities": [
+    "responsibilities": [
       "Write product or system development code.",
       "Participate in, or lead design reviews with peers and stakeholders to decide among available technologies.",
       "Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).",
@@ -56,122 +29,9 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/138138461663044294-software-engineer-photos?location=Australia&page=1"
   },
   {
-    "job_title": "Field Sales Representative, Google Cloud",
-    "company": "Google",
-    "location": "Perth WA, Australia; Melbourne VIC, Australia",
-    "level": "Advanced",
-    "minimum_qualifications": [
-      "Bachelor's degree or equivalent practical experience.",
-      "10 years of experience with quota-carrying cloud or software sales, or account management at a B2B software company.",
-      "Experience engaging with accounts, selling a portfolio of products at C-level.",
-      "Experience prospecting, or building customer relationships from scratch."
-    ],
-    "preferred_qualifications": [
-      "Experience selling Cloud Solutions, Infrastructure Software, Databases, Analytic Tools, or Applications Software across multiple industries, aligning solutions to drive business outcomes.",
-      "Experience working with, and leading, cross-functional teams and partners in implementations and negotiations.",
-      "Experience successfully working on commercial and legal agreements with procurement, legal, and business teams.",
-      "Experience working with Customer Engineers and customers' technical leads to inventory software estate, define migration plans, and build migration business cases.",
-      "Experience in acquiring new logos at scale and securing foundational workloads to accelerate business."
-    ],
-    "about_the_job": [
-      "As an Enterprise Account Executive, you will act as a trusted business partner to an assigned portfolio of greenfield accounts to understand company challenges and goals whilst driving the growth of the Google Cloud business. You will advocate the innovative power of our products to make organizations more productive, collaborative, and mobile. You will help spread the magic of Google Cloud to organizations operating in an entrepreneurial environment and being comfortable navigating ambiguity and complexity."
-    ],
-    "rensponsibilities": [
-      "Lead business engagements with C-level executives and other executive stakeholders of customers in the Natural Resources sector, to drive impact and accelerate customer digital transformation.",
-      "Manage accounts with full responsibility of the account across solution delivery aspects.",
-      "Be accountable for ongoing relationships and future business growth across the account, by creating and driving business engagements focused on achieving growth at scale.",
-      "Drive and scale existing solutions in the selected accounts and co-create solutions based on Industry, customer and technology trends."
-    ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/102588588662629062-field-sales-representative-google-cloud?location=Australia&page=1"
-  },
-  {
-    "job_title": "Industry Lead, Ecommerce, Google Customer Solutions (Fixed Term Contract)",
-    "company": "Google",
-    "location": "Sydney NSW, Australia",
-    "level": "Mid",
-    "minimum_qualifications": [
-      "Bachelor's degree or equivalent practical experience.",
-      "8 years of industry experience in digital advertising, consultative sales, business development, or digital marketing, or 6 years of experience with an advanced degree."
-    ],
-    "preferred_qualifications": [
-      "Experience building trusted-advisor relationships with C-level executives, managing multiple projects, business leads, and internal stakeholders.",
-      "Ability to develop joint business plans in complex, ambiguous environments, influence or collaborate across organizations, and drive business success for the customer and Google."
-    ],
-    "about_the_job": [
-      "Businesses that partner with Google come in all shapes, sizes and market caps, and no one Google advertising solution works for all. Your knowledge of online media combined with your communication skills and analytical abilities shapes how new and existing businesses grow. Using your relationship-building skills, you provide Google-caliber client service, research and market analysis. You anticipate how decisions are made, persistently explore and uncover the business needs of Google's key clients and understand how our range of product offerings can grow their business. Working with them, you set the vision and the strategy for how their advertising can reach thousands of users.",
-      "This is a Fixed Term Contract.",
-      "Google Customer Solutions (GCS) sales teams are trusted advisors and competitive sellers who maintain a relentless focus on customer success by bringing the best Google has to offer to small- and medium-sized businesses (SMBs), which are the backbone of our communities. As a member of our team, you’ll have the opportunity to work with company owners and make a real difference in their businesses by helping them grow.  Together, we help shape the future of innovation for customers, partners, and sellers...and we have fun doing it."
-    ],
-    "rensponsibilities": [
-      "Build and manage relationships with C-level clients and senior partner stakeholders. Develop a comprehensive understanding of their business challenges, marketing objectives, and success metrics.",
-      "Structure a clear, long-term joint strategy between Google and clients, and lead a cross-functional team within Google to collaborate on projects and drive client success.",
-      "Plan for, and achieve, growth goals, through the presentation of Google advertising products/solutions that will help clients to meet their marketing objectives.",
-      "Develop forward thinking, data-driven analyses and consultative recommendations that align with customer goals, and quantify high-impact opportunities with clear recommendations to present to customers.",
-      "Build an in-depth knowledge of how Google Advertising products work and can be used to help meet a wide range of marketing objectives."
-    ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/74235204754907846-industry-lead-ecommerce-google-customer-solutions-fixed-term-contract?location=Australia&page=1"
-  },
-  {
-    "job_title": "Software Engineer, Mobile, iOS, Photos",
-    "company": "Google",
-    "location": "Sydney NSW, Australia",
-    "level": "Mid",
-    "minimum_qualifications": [
-      "Bachelor’s degree or equivalent practical experience.",
-      "2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree in an industry setting.",
-      "2 years of experience with data structures or algorithms in either an academic or industry setting.",
-      "2 years of experience with iOS application development."
-    ],
-    "preferred_qualifications": [
-      "Master's degree in Computer Science or a related technical field.",
-      "2 years of experience with performance, large scale systems data analysis, visualization tools, or debugging.",
-      "Experience developing accessible technologies.",
-      "Proficiency in code and system health, diagnosis and resolution, and software test engineering."
-    ],
-    "about_the_job": [
-      "Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.",
-      "Google Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user."
-    ],
-    "rensponsibilities": [
-      "Write product or system development code.",
-      "Review code developed by other engineers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).",
-      "Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.",
-      "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.",
-      "Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies."
-    ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/117157062432957126-software-engineer-mobile-ios-photos?location=Australia&page=1"
-  },
-  {
-    "job_title": "Account Manager, Large Customer Sales",
-    "company": "Google",
-    "location": "Sydney NSW, Australia",
-    "level": "Early",
-    "minimum_qualifications": [
-      "Bachelor's degree or equivalent practical experience.",
-      "2 years of experience in managing digital advertising campaigns."
-    ],
-    "preferred_qualifications": [
-      "Understanding of the digital marketing ecosystem and technology.",
-      "Ability to grow in a changing environment and engage with all levels of the organization.",
-      "Ability to manage the business process."
-    ],
-    "about_the_job": [
-      "Businesses that partner with Google come in all shapes, sizes and market caps, and no one Google advertising solution works for all. Your knowledge of online media combined with your communication skills and analytical abilities shapes how new and existing businesses grow. Using your relationship-building skills, you provide Google-caliber client service, research and market analysis. You anticipate how decisions are made, persistently explore and uncover the business needs of Google's key clients and understand how our range of product offerings can grow their business. Working with them, you set the vision and the strategy for how their advertising can reach thousands of users.",
-      "Our Large Customer Sales teams partner closely with many of the world’s biggest advertisers and agencies to develop digital solutions that build businesses and brands. We enjoy a bird’s eye view on the massive transformation occurring as advertising shifts to mobile and online platforms. We're uniquely situated to help shape how companies grow their businesses in the digital age. We advise clients on Google's broad range of products across search, video and mobile to help them connect instantly and seamlessly with their audiences."
-    ],
-    "rensponsibilities": [
-      "Optimize business growth potential and enhance growth across the client portfolio.",
-      "Understand key clients business goals and current search, display and video strategies.",
-      "Respond to media briefs and identify and present opportunities.",
-      "Act as a liaison with clients and agencies regarding new product launches and advertising opportunities.",
-      "Provide campaign updates and ensure that our advertisers are satisfied. Manage ongoing customer training in all related tools."
-    ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/77291613138625222-account-manager-large-customer-sales?location=Australia&page=1"
-  },
-  {
     "job_title": "Customer Engineer, Public Sector",
     "company": "Google",
-    "location": "Melbourne VIC, Australia",
+    "job_location": "Melbourne VIC, Australia",
     "level": "Mid",
     "minimum_qualifications": [
       "Bachelor's degree or equivalent practical experience.",
@@ -187,7 +47,7 @@
       "Experience with private, hybrid, or public cloud technology, migrating Linux, including virtualization (e.g., VMware)."
     ],
     "about_the_job": "The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are developed for security, reliability and scalability, running the full stack from infrastructure to applications to devices and hardware. Our teams are dedicated to helping our customers — developers, small and large businesses, educational institutions and government agencies — see the benefits of our technology come to life. As part of an entrepreneurial team in this rapidly growing business, you will play a key role in understanding the needs of our customers and help shape the future of businesses of all sizes use technology to connect with customers, employees and partners. in this role, you will work with the business team to introduce Google Cloud to our customers. You will help prospective, existing customers and partners in understanding the potential of Google Cloud, develop creative cloud solutions and architectures to solve the business issues, and solve any potential technical roadblocks. You will help assess workloads for migration, plan the necessary steps, and help coordinate migration processes.Google Cloud accelerates every organization’s ability to digitally transform its business and industry. We deliver enterprise-grade solutions that leverage Google’s cutting-edge technology, and tools that help developers build more sustainably. Customers in more than 200 countries and territories turn to Google Cloud as their trusted partner to enable growth and solve their most critical business problems.",
-    "rensponsibilities": [
+    "responsibilities": [
       "Work with the team to identify and qualify business opportunities, understand customer technical objections, and develop the strategy to resolve technical blockers.",
       "Work with Google Cloud products to demonstrate and prototype integrations in customer and partner environments.",
       "Recommend integration strategies, enterprise architectures, platforms, and application infrastructure required to implement a complete solution on Google Cloud.",
@@ -197,9 +57,117 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/100246341937963718-customer-engineer-public-sector?location=Australia&page=1"
   },
   {
+    "job_title": "Program Manager, Google Photos",
+    "company": "Google",
+    "job_location": "Sydney NSW, Australia",
+    "level": "Mid",
+    "minimum_qualifications": [
+      "Bachelor's degree or equivalent practical experience.",
+      "2 years of experience in program or project management.",
+      "2 years of experience working with data analytics tools and reporting platforms."
+    ],
+    "preferred_qualifications": [
+      "2 years of experience managing cross-functional or cross-team projects.",
+      "Experience with consumer products development.",
+      "Experience in driving programs with third-party partners (e.g., telephone company, original equipment manufactures (OEMs)).",
+      "Ability to operate in a dynamic, fast-paced environment and to manage multiple projects and stakeholders simultaneously.",
+      "Ability to be self-directed in an ambiguous environment."
+    ],
+    "about_the_job": "A problem isn’t truly solved until it’s solved for all. That’s why Googlers build products that help create opportunities for everyone, whether down the street or across the globe. As a Program Manager at Google, you’ll lead complex, multi-disciplinary projects from start to finish — working with stakeholders to plan requirements, manage project schedules, identify risks, and communicate clearly with cross-functional partners across the company. Your projects will often span offices, time zones, and hemispheres. It's your job to coordinate the players and keep them up to date on progress and deadlines. \nGoogle Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user.",
+    "responsibilities": [
+      "Prioritize quality assurance requests for new features and regression testing, and evolve processes and improve tooling to drive velocity and efficiency.",
+      "Drive the engineering roadmap for both Google Photos and Google One and release management across both products for Web, Android, and iOS.",
+      "Evolve our roadmap/launch planning and execution programs and processes.",
+      "Work with cross-functional stakeholders across locations to influence priorities and resolve blockers/escalations.",
+      "Build trusted relationships with program stakeholders, including managing expectations of program stakeholders and ensuring they have the insights they need to make effective decisions."
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/138960653426533062-program-manager-google-photos?location=Australia&page=1"
+  },
+  {
+    "job_title": "Software Engineer, Photos, Early Career",
+    "company": "Google",
+    "job_location": "Sydney NSW, Australia",
+    "level": "Early",
+    "minimum_qualifications": [
+      "Bachelor’s degree or equivalent practical experience.",
+      "Experience with software development in one or more programming languages, or experience with an advanced degree.",
+      "Experience with data structures or algorithms in either an academic or industry setting."
+    ],
+    "preferred_qualifications": [
+      "Master's degree or PhD in Computer Science or related technical fields.",
+      "Experience developing accessible technologies.",
+      "Experience building Web applications."
+    ],
+    "about_the_job": [
+      "Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.",
+      "Google Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user."
+    ],
+    "responsibilities": [
+      "Design, develop, test, deploy, maintain, and enhance software products.",
+      "Work with other engineers to continuously improve our software components and architecture.",
+      "Identify technical problems with the requirements, and fix them, helping the team to course-correct when necessary.",
+      "Utilize communication skills and collaborate with the wider team (e.g., Product Managers, UX designers, and Quality Assurance) to deliver the highest quality product."
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/96542567226581702-software-engineer-photos-early-career?location=Australia&page=1"
+  },
+  {
+    "job_title": "Software Engineering Intern, Summer 2025",
+    "company": "Google",
+    "job_location": "Sydney NSW, Australia",
+    "level": "Intern & Apprentice",
+    "minimum_qualifications": [
+      "Currently pursuing a Bachelor's, Master's, or PhD degree in Computer Science or a related technical field.",
+      "Experience with one or more general purpose programming languages (e.g., Java, C/C++, Python, JavaScript, Go, etc.)."
+    ],
+    "preferred_qualifications": [
+      "Currently in your penultimate year of study.",
+      "Experience in computer science.",
+      "Proficiency with data structures, algorithms, and software design.",
+      "Knowledge of Unix/Linux and APIs.",
+      "Familiarity with TCP/IP and network programming."
+    ],
+    "about_the_job": [
+      "Google is and always will be an engineering company. We hire people with a broad set of technical skills who are ready to address some of technology's greatest challenges and make an impact on millions, if not billions, of users. At Google, engineers not only revolutionize search, they routinely work on massive scalability and storage solutions, large-scale applications and entirely new platforms for developers around the world. From Google Ads to Chrome, Android to YouTube, Social to Local, Google engineers are changing the world one technological achievement after another."
+    ],
+    "responsibilities": [
+      "Research, create, and develop software applications to extend and improve on Google's product offering.",
+      "Contribute to a wide variety of projects utilizing natural language processing, artificial intelligence, data compression, machine learning, and search technologies.",
+      "Collaborate on scalability issues involving access to massive amounts of data and information.",
+      "Work in and support a productive and innovative team with peers, managers, and cross-functional teams."
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/99510124682322630-software-engineering-intern-summer-2025?location=Australia&page=1"
+  },
+  {
+    "job_title": "Industry Lead, Ecommerce, Google Customer Solutions (Fixed Term Contract)",
+    "company": "Google",
+    "job_location": "Sydney NSW, Australia",
+    "level": "Mid",
+    "minimum_qualifications": [
+      "Bachelor's degree or equivalent practical experience.",
+      "8 years of industry experience in digital advertising, consultative sales, business development, or digital marketing, or 6 years of experience with an advanced degree."
+    ],
+    "preferred_qualifications": [
+      "Experience building trusted-advisor relationships with C-level executives, managing multiple projects, business leads, and internal stakeholders.",
+      "Ability to develop joint business plans in complex, ambiguous environments, influence or collaborate across organizations, and drive business success for the customer and Google."
+    ],
+    "about_the_job": [
+      "Businesses that partner with Google come in all shapes, sizes and market caps, and no one Google advertising solution works for all. Your knowledge of online media combined with your communication skills and analytical abilities shapes how new and existing businesses grow. Using your relationship-building skills, you provide Google-caliber client service, research and market analysis. You anticipate how decisions are made, persistently explore and uncover the business needs of Google's key clients and understand how our range of product offerings can grow their business. Working with them, you set the vision and the strategy for how their advertising can reach thousands of users.",
+      "This is a Fixed Term Contract.",
+      "Google Customer Solutions (GCS) sales teams are trusted advisors and competitive sellers who maintain a relentless focus on customer success by bringing the best Google has to offer to small- and medium-sized businesses (SMBs), which are the backbone of our communities. As a member of our team, you’ll have the opportunity to work with company owners and make a real difference in their businesses by helping them grow.  Together, we help shape the future of innovation for customers, partners, and sellers...and we have fun doing it."
+    ],
+    "responsibilities": [
+      "Build and manage relationships with C-level clients and senior partner stakeholders. Develop a comprehensive understanding of their business challenges, marketing objectives, and success metrics.",
+      "Structure a clear, long-term joint strategy between Google and clients, and lead a cross-functional team within Google to collaborate on projects and drive client success.",
+      "Plan for, and achieve, growth goals, through the presentation of Google advertising products/solutions that will help clients to meet their marketing objectives.",
+      "Develop forward thinking, data-driven analyses and consultative recommendations that align with customer goals, and quantify high-impact opportunities with clear recommendations to present to customers.",
+      "Build an in-depth knowledge of how Google Advertising products work and can be used to help meet a wide range of marketing objectives."
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/74235204754907846-industry-lead-ecommerce-google-customer-solutions-fixed-term-contract?location=Australia&page=1"
+  },
+  {
     "job_title": "Technical Program Management, APAC Network Infrastructure",
     "company": "Google",
-    "location": "Sydney NSW, Australia; Singapore",
+    "job_location": "Sydney NSW, Australia",
     "level": "Mid",
     "minimum_qualifications": [
       "Bachelor's degree in a technical field, or equivalent practical experience.",
@@ -215,7 +183,7 @@
     "about_the_job": [
       "A problem isn’t truly solved until it’s solved for all. That’s why Googlers build products that help create opportunities for everyone, whether down the street or across the globe. As a Technical Program Manager at Google, you’ll use your technical expertise to lead complex, multi-disciplinary projects from start to finish. You’ll work with stakeholders to plan requirements, identify risks, manage project schedules, and communicate clearly with cross-functional partners across the company. You're equally comfortable explaining your team's analyses and recommendations to executives as you are discussing the technical tradeoffs in product development with engineers."
     ],
-    "rensponsibilities": [
+    "responsibilities": [
       "Collaborate with internal and cross-functional networking technical teams to identify and define  initiatives necessary to meet Google's network infrastructure needs for both expansion and cost optimisation across Asia.",
       "Present network plans for approval by all internal stakeholders. Complexity will range from short-term metro augments to long-term region-wide strategies for Google networks in Asia.",
       "Project manage the approved network plan with internal contributors such as network negotiators or vendor delivery managers to ensure infrastructure is delivered on-time.",
@@ -225,9 +193,35 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/127494661362066118-technical-program-management-apac-network-infrastructure?location=Australia&page=1"
   },
   {
+    "job_title": "Site Reliability Engineer, Google Cloud Storage",
+    "company": "Google",
+    "job_location": "Sydney NSW, Australia",
+    "level": "Mid",
+    "minimum_qualifications": [
+      "Bachelor’s degree in Computer Science, a related field, or equivalent practical experience.",
+      "2 years of experience with software development in one or more programming languages.",
+      "2 years of experience with data structures or algorithms."
+    ],
+    "preferred_qualifications": [
+      "Master's degree in Computer Science or Engineering.",
+      "2 years of experience designing, analyzing, and troubleshooting distributed systems."
+    ],
+    "about_the_job": [
+      "Site Reliability Engineering (SRE) combines software and systems engineering to build and run large-scale, massively distributed, fault-tolerant systems. SRE ensures that Google Cloud's services—both our internally critical and our externally-visible systems—have reliability, uptime appropriate to customer's needs and a fast rate of improvement. Additionally SRE’s will keep an ever-watchful eye on our systems capacity and performance."
+    ],
+    "responsibilities": [
+      "Write product or system development code.",
+      "Review code developed by other engineers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).",
+      "Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.",
+      "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.",
+      "Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies."
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/100269567510487750-site-reliability-engineer-google-cloud-storage?location=Australia&page=1"
+  },
+  {
     "job_title": "Software Engineer, Early Career, iOS, Photos",
     "company": "Google",
-    "location": "Sydney NSW, Australia",
+    "job_location": "Sydney NSW, Australia",
     "level": "Early",
     "minimum_qualifications": [
       "Bachelor’s degree or equivalent practical experience.",
@@ -245,7 +239,7 @@
       "With your technical expertise, you will manage project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.",
       "Google Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user."
     ],
-    "rensponsibilities": [
+    "responsibilities": [
       "Write product or system development code.",
       "Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.",
       "Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).",
@@ -255,9 +249,33 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/130270757497250502-software-engineer-early-career-ios-photos?location=Australia&page=1"
   },
   {
+    "job_title": "Software Engineer, Site Reliability Engineering, Home and Assistant",
+    "company": "Google",
+    "job_location": "Sydney NSW, Australia",
+    "level": "Early",
+    "minimum_qualifications": [
+      "Bachelor’s degree in Computer Science, a related field, or equivalent practical experience.",
+      "1 year of experience with data structures/algorithms and software development in one or more programming languages during coursework/projects, research, internships, or practical experience in school, work, or Open Source projects."
+    ],
+    "preferred_qualifications": [
+      "Master's degree in Computer Science or Engineering."
+    ],
+    "about_the_job": [
+      "Site Reliability Engineering (SRE) combines software and systems engineering to build and run large-scale, massively distributed, fault-tolerant systems. SRE ensures that Google Cloud's services—both our internally critical and our externally-visible systems—have reliability, uptime appropriate to customer's needs and a fast rate of improvement. Additionally SRE’s will keep an ever-watchful eye on our systems capacity and performance."
+    ],
+    "responsibilities": [
+      "Write product or system development code.",
+      "Review code developed by other engineers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).",
+      "Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.",
+      "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.",
+      "Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies."
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/137321488821691078-software-engineer-site-reliability-engineering-home-and-assistant?location=Australia&page=1"
+  },
+  {
     "job_title": "Senior Privacy Engineer, Google Photos",
     "company": "Google",
-    "location": "Sydney NSW, Australia",
+    "job_location": "Sydney NSW, Australia",
     "level": "Mid",
     "minimum_qualifications": [
       "Bachelor's degree in Computer Science, Engineering, Law, or a related field.",
@@ -275,7 +293,7 @@
       "Our Privacy Working Groups mission is to work with Photos' and Google One's product and engineering teams to ensure that privacy risks are identified and mitigated. This helps us continue to keep the trust of our users and ensure that these products maintain their commitment to high privacy standards. This Privacy Working Group (PWG) supports these organizations in building products that earn and maintain user trust. PWG team members contribute to the successful execution of the PWG's mission. As an embedded group the team members can create deeper engagements within the PA to evolve a more mature, scalable, and effective privacy story.",
       "Google Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user."
     ],
-    "rensponsibilities": [
+    "responsibilities": [
       "Analyze privacy risks and compliance requirements associated with new cloud technologies, products, and services.",
       "Conduct data flow assessments of cloud-based systems and identify potential privacy impacts on individuals.",
       "Develop clear and concise privacy impact assessments (PIAs) for cloud projects and advise on mitigation strategies.",
@@ -285,119 +303,9 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/140539351602733766-senior-privacy-engineer-google-photos?location=Australia&page=1"
   },
   {
-    "job_title": "Software Engineer, Photos, Early Career",
-    "company": "Google",
-    "location": "Sydney NSW, Australia",
-    "level": "Early",
-    "minimum_qualifications": [
-      "Bachelor’s degree or equivalent practical experience.",
-      "Experience with software development in one or more programming languages, or experience with an advanced degree.",
-      "Experience with data structures or algorithms in either an academic or industry setting."
-    ],
-    "preferred_qualifications": [
-      "Master's degree or PhD in Computer Science or related technical fields.",
-      "Experience developing accessible technologies.",
-      "Experience building Web applications."
-    ],
-    "about_the_job": [
-      "Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.",
-      "Google Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user."
-    ],
-    "rensponsibilities": [
-      "Design, develop, test, deploy, maintain, and enhance software products.",
-      "Work with other engineers to continuously improve our software components and architecture.",
-      "Identify technical problems with the requirements, and fix them, helping the team to course-correct when necessary.",
-      "Utilize communication skills and collaborate with the wider team (e.g., Product Managers, UX designers, and Quality Assurance) to deliver the highest quality product."
-    ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/96542567226581702-software-engineer-photos-early-career?location=Australia&page=1"
-  },
-  {
-    "job_title": "Software Engineer, Early Career, NetSoft",
-    "company": "Google",
-    "location": "Sydney NSW, Australia",
-    "level": "Early",
-    "minimum_qualifications": [
-      "Bachelor's degree or equivalent practical experience.",
-      "1 years of experience with software development in any general purpose programming language (e.g., C++, Java, Golang, or Python).",
-      "1 years of experience with data structures or algorithms."
-    ],
-    "preferred_qualifications": [
-      "Master's degree or PhD in Computer Science or a related technical field.",
-      "Experience with internal software development, or working directly with customers.",
-      "Experience developing or working with distributed or large cloud-based software systems.",
-      "Experience working in data services and data pipelines.",
-      "Experience with mathematical optimization or operations research software, such as LP solvers or network flow algorithms."
-    ],
-    "about_the_job": [
-      "Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.With your technical expertise you will manage project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.",
-      "NetSoft Sydney writes internal software that helps Google forecast, plan, design, and deploy its global production network. Google's network is growing at a huge rate, and in order to keep up with demand, we are in the process of fundamentally rethinking how we plan and design Google's network how to be agile, flexible and immense and provide cutting-edge technology support.",
-      "Google Cloud accelerates every organization’s ability to digitally transform its business and industry. We deliver enterprise-grade solutions that leverage Google’s cutting-edge technology, and tools that help developers build more sustainably. Customers in more than 200 countries and territories turn to Google Cloud as their trusted partner to enable growth and solve their most critical business problems."
-    ],
-    "rensponsibilities": [
-      "Develop, review, and manage operations for our network planning, design, and delivery infrastructure and provide support to network planners.",
-      "Work with our peer teams in understanding the workflows and issues, train and land features.",
-      "Propose software component designs.",
-      "Participate in design, implementation and support of the data systems that manage Google's network physical topology data."
-    ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/127130277494301382-software-engineer-early-career-netsoft?location=Australia&page=1"
-  },
-  {
-    "job_title": "Software Engineering Intern, Summer 2025",
-    "company": "Google",
-    "location": "Sydney NSW, Australia",
-    "level": "Intern & Apprentice",
-    "minimum_qualifications": [
-      "Currently pursuing a Bachelor's, Master's, or PhD degree in Computer Science or a related technical field.",
-      "Experience with one or more general purpose programming languages (e.g., Java, C/C++, Python, JavaScript, Go, etc.)."
-    ],
-    "preferred_qualifications": [
-      "Currently in your penultimate year of study.",
-      "Experience in computer science.",
-      "Proficiency with data structures, algorithms, and software design.",
-      "Knowledge of Unix/Linux and APIs.",
-      "Familiarity with TCP/IP and network programming."
-    ],
-    "about_the_job": [
-      "Google is and always will be an engineering company. We hire people with a broad set of technical skills who are ready to address some of technology's greatest challenges and make an impact on millions, if not billions, of users. At Google, engineers not only revolutionize search, they routinely work on massive scalability and storage solutions, large-scale applications and entirely new platforms for developers around the world. From Google Ads to Chrome, Android to YouTube, Social to Local, Google engineers are changing the world one technological achievement after another."
-    ],
-    "rensponsibilities": [
-      "Research, create, and develop software applications to extend and improve on Google's product offering.",
-      "Contribute to a wide variety of projects utilizing natural language processing, artificial intelligence, data compression, machine learning, and search technologies.",
-      "Collaborate on scalability issues involving access to massive amounts of data and information.",
-      "Work in and support a productive and innovative team with peers, managers, and cross-functional teams."
-    ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/99510124682322630-software-engineering-intern-summer-2025?location=Australia&page=1"
-  },
-  {
-    "job_title": "Site Reliability Engineer, Google Cloud Storage",
-    "company": "Google",
-    "location": "Sydney NSW, Australia",
-    "level": "Mid",
-    "minimum_qualifications": [
-      "Bachelor’s degree in Computer Science, a related field, or equivalent practical experience.",
-      "2 years of experience with software development in one or more programming languages.",
-      "2 years of experience with data structures or algorithms."
-    ],
-    "preferred_qualifications": [
-      "Master's degree in Computer Science or Engineering.",
-      "2 years of experience designing, analyzing, and troubleshooting distributed systems."
-    ],
-    "about_the_job": [
-      "Site Reliability Engineering (SRE) combines software and systems engineering to build and run large-scale, massively distributed, fault-tolerant systems. SRE ensures that Google Cloud's services—both our internally critical and our externally-visible systems—have reliability, uptime appropriate to customer's needs and a fast rate of improvement. Additionally SRE’s will keep an ever-watchful eye on our systems capacity and performance."
-    ],
-    "rensponsibilities": [
-      "Write product or system development code.",
-      "Review code developed by other engineers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).",
-      "Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.",
-      "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.",
-      "Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies."
-    ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/100269567510487750-site-reliability-engineer-google-cloud-storage?location=Australia&page=1"
-  },
-  {
     "job_title": "Product Manager II, Google Photos Creative Expression",
     "company": "Google",
-    "location": "Sydney NSW, Australia",
+    "job_location": "Sydney NSW, Australia",
     "level": "Mid",
     "minimum_qualifications": [
       "Bachelor's degree or equivalent practical experience.",
@@ -419,7 +327,7 @@
       "The team's mission is to help people enhance and create content through tools that leverage AI and ML technology. In this role, you will innovate and differentiate with features which power the main focus areas of the team across image and video editing. As the Product Manager, you will help shape the future of video editing in Google Photos, and work with a cross-functional team to build the strategy and roadmap for helping users edit and express themselves with videos.",
       "Google Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user."
     ],
-    "rensponsibilities": [
+    "responsibilities": [
       "Understand markets, competition, and user requirements.",
       "Launch new products and features, test their performance, and iterate quickly.",
       "Work collaboratively with engineering, marketing, legal, UX, and other teams on technologies.",
@@ -429,90 +337,37 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/129740062479786694-product-manager-ii-google-photos-creative-expression?location=Australia&page=1"
   },
   {
-    "job_title": "Software Engineer, Site Reliability Engineering, Home and Assistant",
+    "job_title": "Senior Data Center Strategic Negotiator, ELS Regional Development",
     "company": "Google",
-    "location": "Sydney NSW, Australia",
-    "level": "Early",
-    "minimum_qualifications": [
-      "Bachelor’s degree in Computer Science, a related field, or equivalent practical experience.",
-      "1 year of experience with data structures/algorithms and software development in one or more programming languages during coursework/projects, research, internships, or practical experience in school, work, or Open Source projects."
-    ],
-    "preferred_qualifications": [
-      "Master's degree in Computer Science or Engineering."
-    ],
-    "about_the_job": [
-      "Site Reliability Engineering (SRE) combines software and systems engineering to build and run large-scale, massively distributed, fault-tolerant systems. SRE ensures that Google Cloud's services—both our internally critical and our externally-visible systems—have reliability, uptime appropriate to customer's needs and a fast rate of improvement. Additionally SRE’s will keep an ever-watchful eye on our systems capacity and performance."
-    ],
-    "rensponsibilities": [
-      "Write product or system development code.",
-      "Review code developed by other engineers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).",
-      "Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.",
-      "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.",
-      "Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies."
-    ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/137321488821691078-software-engineer-site-reliability-engineering-home-and-assistant?location=Australia&page=1"
-  },
-  {
-    "job_title": "Senior Site Reliability Engineer, Google Cloud Storage",
-    "company": "Google",
-    "location": "Sydney NSW, Australia",
-    "level": "Mid",
-    "minimum_qualifications": [
-      "Bachelor’s degree in Computer Science, a related field, or equivalent practical experience.",
-      "5 years of experience with programming in one or more programming languages.",
-      "3 years of experience designing, analyzing, and troubleshooting distributed systems and working with administration (e.g., filesystems, inodes, system calls) or networking (e.g., TCP/IP, routing, network topologies and hardware, SDN).",
-      "2 years of experience leading projects, and providing technical leadership."
-    ],
-    "preferred_qualifications": [
-      "Master's degree in Computer Science or Engineering."
-    ],
-    "about_the_job": [
-      "Site Reliability Engineering (SRE) combines software and systems engineering to build and run large-scale, massively distributed, fault-tolerant systems. SRE ensures that Google Cloud's services—both our internally critical and our externally-visible systems—have reliability, uptime appropriate to customer's needs and a fast rate of improvement. Additionally SRE’s will keep an ever-watchful eye on our systems capacity and performance.",
-      "Behind everything our users see online is the architecture built by the Technical Infrastructure team to keep it running. From developing and maintaining our data centers to building the next generation of Google platforms, we make Google's product portfolio possible. We're proud to be our engineers' engineers and love voiding warranties by taking things apart so we can rebuild them. We keep our networks up and running, ensuring our users have the best and fastest experience possible."
-    ],
-    "rensponsibilities": [
-      "Improve the whole life-cycle of services from inception and design, through deployment, operation, and refinement.",
-      "Provide guidance to other team members on managing availability and performance of mission critical services, building automation to prevent problem recurrence, and building automated responses for non-exceptional service conditions.",
-      "Maintain services once they are live by measuring and monitoring availability, latency, and overall system health, and lead sustainable incident response and blameless postmortems.",
-      "Scale systems sustainably through mechanisms like automation and evolve systems by driving changes that improve reliability and velocity.",
-      "Manage support services before they go live through activities such as system design consulting, developing software platforms and frameworks, capacity planning, and launch reviews."
-    ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/143563929178514118-senior-site-reliability-engineer-google-cloud-storage?location=Australia&page=1"
-  },
-  {
-    "job_title": "Media Partnerships Agency Lead",
-    "company": "Google",
-    "location": "Sydney NSW, Australia; Melbourne VIC, Australia",
-    "level": "Mid",
+    "job_location": "Singapore; Sydney NSW, Australia",
+    "level": "Advanced",
     "minimum_qualifications": [
       "Bachelor's degree or equivalent practical experience.",
-      "5 years of online sales (e.g. Search, Video, Media, etc) or business-development experience. Experience in digital advertising sales/media management."
+      "10 years of experience leading negotiations or business development."
     ],
     "preferred_qualifications": [
-      "Experience in the online advertising industry.",
-      "Knowledge across all of Google’s product portfolio, with demonstrated brand (DVA) market awareness.",
-      "Ability to establish relationships and presence within the agency marketplace.",
-      "Excellent stakeholder management and relationship building skills.",
-      "Excellent communication and presentation skills.",
-      "Excellent sales and negotiation skills."
+      "Experience with any of the following: site selection for industrial-scale projects, real estate transaction, real estate evaluation, acquisition, development, construction, discussing or managing utility agreements, energy-related issues, implementation of clean energy initiatives, financial modeling, large collocation agreements.",
+      "Experience in indirect taxes, economic development policy, financial modeling, infrastructure development, agreement drafting and redlining, and presentation development.",
+      "Knowledge of power transmission and distribution, telecommunications infrastructure, data center technology, industrial electrical and cooling technology, and other related areas.",
+      "Ability to travel up to 50% of the time as needed."
     ],
     "about_the_job": [
-      "Businesses that partner with Google come in all shapes, sizes and market caps, and no one Google advertising solution works for all. Your knowledge of online media combined with your communication skills and analytical abilities shapes how new and existing businesses grow. Using your relationship-building skills, you provide Google-caliber client service, research and market analysis. You anticipate how decisions are made, persistently explore and uncover the business needs of Google's key clients and understand how our range of product offerings can grow their business. Working with them, you set the vision and the strategy for how their advertising can reach thousands of users.",
-      "Our Large Customer Sales teams partner closely with many of the world’s biggest advertisers and agencies to develop digital solutions that build businesses and brands. We enjoy a bird’s eye view on the massive transformation occurring as advertising shifts to mobile and online platforms. We're uniquely situated to help shape how companies grow their businesses in the digital age. We advise clients on Google's broad range of products across search, video and mobile to help them connect instantly and seamlessly with their audiences."
+      "Google's infrastructure needs go far beyond server computers. As Google's products and services scale the globe, the Strategic Negotiation team works behind the scenes to secure infrastructure for Google's future -- everything from underwater cables to physical data center space. As a Strategic Negotiator, you combine your deep market knowledge of a given sector with tech industry savvy to negotiate cost-effective solutions to support Google's infrastructure growth. You'll work with specific project teams on negotiating deals, managing vendor and partner relationships and presenting deal recommendations to our Tech leadership. Your successful negotiations have the potential to save Google millions of dollars in operating costs and impact every part of the business.",
+      "Google Cloud accelerates every organization’s ability to digitally transform its business and industry. We deliver enterprise-grade solutions that leverage Google’s cutting-edge technology, and tools that help developers build more sustainably. Customers in more than 200 countries and territories turn to Google Cloud as their trusted partner to enable growth and solve their most critical business problems."
     ],
-    "rensponsibilities": [
-      "Develop and grow Agencies in line with the Annual Plan and Joint Business Plan [JBP], KPI ownership anchored on agency chief business objectives CBOs: work alongside Global Agency teams and Google Sales teams to build and execute partnership plans with our agency partners.",
-      "Drive Google partnership to address agency business profitability through commercial agreements, product depth and scaled capability.",
-      "Develop, cultivate and canvas Google’s relationships from the suite agency partners driving the strategy, trading terms and execution of annual agency partnership plans for Google.",
-      "Be the owner of agency communications, structures and relationships, the conduit between the agency ecosystem and Google for all brand activation.",
-      "Assess the product capabilities of our agency partners to build and deliver impact training programs at scale."
+    "responsibilities": [
+      "Work with internal and external technical teams to identify, define, and pursue initiatives necessary to meet Google's ongoing data center needs, including agreement of necessary utility connections (e.g., power, water, etc.) at existing and new green or brown field sites.",
+      "Lead development and execution of strategy for the build-to-suit, leasing and colocation programs to deliver data center sites at various stages of development in accordance with broader team goals.",
+      "Monitor progress against objectives, providing regular status reports and advocating financial metrics to support both site and infrastructure related portfolio decisions.",
+      "Develop metrics for mapping, tracking, and advocating of a broad range of portfolio management issues regarding site/infrastructure development.",
+      "Foster an open and inclusive workplace for colleagues in day-to-day interactions and conversations."
     ],
-    "url": "https://www.google.com/about/careers/applications/jobs/results/77472438375326406-media-partnerships-agency-lead?location=Australia&page=1"
+    "url": "https://www.google.com/about/careers/applications/jobs/results/74796152314045126-senior-data-center-strategic-negotiator-els-regional-development?location=Australia&page=1"
   },
   {
     "job_title": "Software Engineer, Visual Language and Multimodal Modeling",
     "company": "Google",
-    "location": "Sydney NSW, Australia",
+    "job_location": "Sydney NSW, Australia",
     "level": "Mid",
     "minimum_qualifications": [
       "Bachelor's degree in Electrical Engineering, Computer Science, a relevant technical field, or equivalent practical experience.",
@@ -531,7 +386,7 @@
       "In this role, you will be responsible for developing, prototyping, and producing industry leading biometric authentication technology. You will support high-level Product Area OKR to develop AI capabilities to accelerate product development cycles.",
       "Google's mission is to organize the world's information and make it universally accessible and useful. Our Devices & Services team combines the best of Google AI, Software, and Hardware to create radically helpful experiences for users. We research, design, and develop new technologies and hardware to make our user's interaction with computing faster, seamless, and more powerful. Whether finding new ways to capture and sense the world around us, advancing form factors, or improving interaction methods, the Devices & Services team is making people's lives better through technology."
     ],
-    "rensponsibilities": [
+    "responsibilities": [
       "Explore with the team multimodal technologies that can improve face authentication solutions, which may include visual language models and multimodal learning techniques.",
       "Work with the data team to collect evaluation and training datasets (e.g., define requirements, design data collection system setup, and data labeling programs).",
       "Identify quality problems and iterate technical solutions.",
@@ -541,9 +396,99 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/136765017021129414-software-engineer-visual-language-and-multimodal-modeling?location=Australia&page=1"
   },
   {
+    "job_title": "Media Partnerships Agency Lead",
+    "company": "Google",
+    "job_location": "Sydney NSW, Australia; Melbourne VIC, Australia",
+    "level": "Mid",
+    "minimum_qualifications": [
+      "Bachelor's degree or equivalent practical experience.",
+      "5 years of online sales (e.g. Search, Video, Media, etc) or business-development experience. Experience in digital advertising sales/media management."
+    ],
+    "preferred_qualifications": [
+      "Experience in the online advertising industry.",
+      "Knowledge across all of Google’s product portfolio, with demonstrated brand (DVA) market awareness.",
+      "Ability to establish relationships and presence within the agency marketplace.",
+      "Excellent stakeholder management and relationship building skills.",
+      "Excellent communication and presentation skills.",
+      "Excellent sales and negotiation skills."
+    ],
+    "about_the_job": [
+      "Businesses that partner with Google come in all shapes, sizes and market caps, and no one Google advertising solution works for all. Your knowledge of online media combined with your communication skills and analytical abilities shapes how new and existing businesses grow. Using your relationship-building skills, you provide Google-caliber client service, research and market analysis. You anticipate how decisions are made, persistently explore and uncover the business needs of Google's key clients and understand how our range of product offerings can grow their business. Working with them, you set the vision and the strategy for how their advertising can reach thousands of users.",
+      "Our Large Customer Sales teams partner closely with many of the world’s biggest advertisers and agencies to develop digital solutions that build businesses and brands. We enjoy a bird’s eye view on the massive transformation occurring as advertising shifts to mobile and online platforms. We're uniquely situated to help shape how companies grow their businesses in the digital age. We advise clients on Google's broad range of products across search, video and mobile to help them connect instantly and seamlessly with their audiences."
+    ],
+    "responsibilities": [
+      "Develop and grow Agencies in line with the Annual Plan and Joint Business Plan [JBP], KPI ownership anchored on agency chief business objectives CBOs: work alongside Global Agency teams and Google Sales teams to build and execute partnership plans with our agency partners.",
+      "Drive Google partnership to address agency business profitability through commercial agreements, product depth and scaled capability.",
+      "Develop, cultivate and canvas Google’s relationships from the suite agency partners driving the strategy, trading terms and execution of annual agency partnership plans for Google.",
+      "Be the owner of agency communications, structures and relationships, the conduit between the agency ecosystem and Google for all brand activation.",
+      "Assess the product capabilities of our agency partners to build and deliver impact training programs at scale."
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/77472438375326406-media-partnerships-agency-lead?location=Australia&page=1"
+  },
+  {
+    "job_title": "Software Engineer, Early Career, NetSoft",
+    "company": "Google",
+    "job_location": "Sydney NSW, Australia",
+    "level": "Early",
+    "minimum_qualifications": [
+      "Bachelor's degree or equivalent practical experience.",
+      "1 years of experience with software development in any general purpose programming language (e.g., C++, Java, Golang, or Python).",
+      "1 years of experience with data structures or algorithms."
+    ],
+    "preferred_qualifications": [
+      "Master's degree or PhD in Computer Science or a related technical field.",
+      "Experience with internal software development, or working directly with customers.",
+      "Experience developing or working with distributed or large cloud-based software systems.",
+      "Experience working in data services and data pipelines.",
+      "Experience with mathematical optimization or operations research software, such as LP solvers or network flow algorithms."
+    ],
+    "about_the_job": [
+      "Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.With your technical expertise you will manage project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.",
+      "NetSoft Sydney writes internal software that helps Google forecast, plan, design, and deploy its global production network. Google's network is growing at a huge rate, and in order to keep up with demand, we are in the process of fundamentally rethinking how we plan and design Google's network how to be agile, flexible and immense and provide cutting-edge technology support.",
+      "Google Cloud accelerates every organization’s ability to digitally transform its business and industry. We deliver enterprise-grade solutions that leverage Google’s cutting-edge technology, and tools that help developers build more sustainably. Customers in more than 200 countries and territories turn to Google Cloud as their trusted partner to enable growth and solve their most critical business problems."
+    ],
+    "responsibilities": [
+      "Develop, review, and manage operations for our network planning, design, and delivery infrastructure and provide support to network planners.",
+      "Work with our peer teams in understanding the workflows and issues, train and land features.",
+      "Propose software component designs.",
+      "Participate in design, implementation and support of the data systems that manage Google's network physical topology data."
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/127130277494301382-software-engineer-early-career-netsoft?location=Australia&page=1"
+  },
+  {
+    "job_title": "Software Engineer, Mobile, iOS, Photos",
+    "company": "Google",
+    "job_location": "Sydney NSW, Australia",
+    "level": "Mid",
+    "minimum_qualifications": [
+      "Bachelor’s degree or equivalent practical experience.",
+      "2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree in an industry setting.",
+      "2 years of experience with data structures or algorithms in either an academic or industry setting.",
+      "2 years of experience with iOS application development."
+    ],
+    "preferred_qualifications": [
+      "Master's degree in Computer Science or a related technical field.",
+      "2 years of experience with performance, large scale systems data analysis, visualization tools, or debugging.",
+      "Experience developing accessible technologies.",
+      "Proficiency in code and system health, diagnosis and resolution, and software test engineering."
+    ],
+    "about_the_job": [
+      "Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.",
+      "Google Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user."
+    ],
+    "responsibilities": [
+      "Write product or system development code.",
+      "Review code developed by other engineers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).",
+      "Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.",
+      "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.",
+      "Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies."
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/117157062432957126-software-engineer-mobile-ios-photos?location=Australia&page=1"
+  },
+  {
     "job_title": "Account Manager, Mid-Market Sales",
     "company": "Google",
-    "location": "Sydney NSW, Australia",
+    "job_location": "Sydney NSW, Australia",
     "level": "Early",
     "minimum_qualifications": [
       "Bachelor's degree or equivalent practical experience.",
@@ -561,7 +506,7 @@
       "Businesses that partner with Google come in all shapes, sizes and market caps, and no one Google advertising solution works for all. Your knowledge of online media combined with your communication skills and analytical abilities shapes how new and existing businesses grow. Using your relationship-building skills, you provide Google-caliber client service, research and market analysis. You anticipate how decisions are made, persistently explore and uncover the business needs of Google's key clients and understand how our range of product offerings can grow their business. Working with them, you set the vision and the strategy for how their advertising can reach thousands of users.",
       "Google Customer Solutions (GCS) sales teams are trusted advisors and competitive sellers who maintain a relentless focus on customer success by bringing the best Google has to offer to small- and medium-sized businesses (SMBs), which are the backbone of our communities. As a member of our team, you’ll have the opportunity to work with company owners and make a real difference in their businesses by helping them grow.  Together, we help shape the future of innovation for customers, partners, and sellers...and we have fun doing it."
     ],
-    "rensponsibilities": [
+    "responsibilities": [
       "Build and manage relationships with clients, and develop an understanding of their business issues, marketing objectives, and success metrics.",
       "Work proactively and cooperatively with internal and external stakeholders to ensure workflows and projects are completed on time to a high standard.",
       "Plan for, and achieve growth goals through the presentation of Google advertising products/solutions that will help clients to meet their marketing objectives.",
@@ -569,5 +514,60 @@
       "Build knowledge of how Google advertising products work and can be used to help meet a wide range of marketing objectives."
     ],
     "url": "https://www.google.com/about/careers/applications/jobs/results/90454858301088454-account-manager-midmarket-sales?location=Australia&page=1"
+  },
+  {
+    "job_title": "Senior Site Reliability Engineer, Google Cloud Storage",
+    "company": "Google",
+    "job_location": "Sydney NSW, Australia",
+    "level": "Mid",
+    "minimum_qualifications": [
+      "Bachelor’s degree in Computer Science, a related field, or equivalent practical experience.",
+      "5 years of experience with programming in one or more programming languages.",
+      "3 years of experience designing, analyzing, and troubleshooting distributed systems and working with administration (e.g., filesystems, inodes, system calls) or networking (e.g., TCP/IP, routing, network topologies and hardware, SDN).",
+      "2 years of experience leading projects, and providing technical leadership."
+    ],
+    "preferred_qualifications": [
+      "Master's degree in Computer Science or Engineering."
+    ],
+    "about_the_job": [
+      "Site Reliability Engineering (SRE) combines software and systems engineering to build and run large-scale, massively distributed, fault-tolerant systems. SRE ensures that Google Cloud's services—both our internally critical and our externally-visible systems—have reliability, uptime appropriate to customer's needs and a fast rate of improvement. Additionally SRE’s will keep an ever-watchful eye on our systems capacity and performance.",
+      "Behind everything our users see online is the architecture built by the Technical Infrastructure team to keep it running. From developing and maintaining our data centers to building the next generation of Google platforms, we make Google's product portfolio possible. We're proud to be our engineers' engineers and love voiding warranties by taking things apart so we can rebuild them. We keep our networks up and running, ensuring our users have the best and fastest experience possible."
+    ],
+    "responsibilities": [
+      "Improve the whole life-cycle of services from inception and design, through deployment, operation, and refinement.",
+      "Provide guidance to other team members on managing availability and performance of mission critical services, building automation to prevent problem recurrence, and building automated responses for non-exceptional service conditions.",
+      "Maintain services once they are live by measuring and monitoring availability, latency, and overall system health, and lead sustainable incident response and blameless postmortems.",
+      "Scale systems sustainably through mechanisms like automation and evolve systems by driving changes that improve reliability and velocity.",
+      "Manage support services before they go live through activities such as system design consulting, developing software platforms and frameworks, capacity planning, and launch reviews."
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/143563929178514118-senior-site-reliability-engineer-google-cloud-storage?location=Australia&page=1"
+  },
+  {
+    "job_title": "Software Engineer, Chrome OS Machine Intelligence",
+    "company": "Google",
+    "job_location": "Sydney NSW, Australia",
+    "level": "Mid",
+    "minimum_qualifications": [
+      "Bachelor’s degree or equivalent practical experience.",
+      "2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree."
+    ],
+    "preferred_qualifications": [
+      "Master's degree or PhD in Computer Science or related technical fields.",
+      "5 years of experience with software development in one or more programming languages, and with data structures or algorithms",
+      "Experience with machine learning algorithms and tools, artificial intelligence, deep learning, or natural language processing."
+    ],
+    "about_the_job": [
+      "Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.",
+      "Please note: Applicants to this role must have work authorization in Australia as this role is not eligible for work visa sponsorship.",
+      "Chrome OS delivers quality computing at scale to provide universal and unfettered access to information, entertainment, and tools. Our mission is to empower anyone to create and access information freely through fast, secure, simple, and intelligent computing."
+    ],
+    "responsibilities": [
+      "Write product or system development code.",
+      "Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.",
+      "Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).",
+      "Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.",
+      "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality."
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/87468298702070470-software-engineer-chrome-os-machine-intelligence?location=Australia&page=1"
   }
 ]

@@ -66,7 +66,7 @@ class googleScraper {
                 }
                 return {
                   company: companySpan?.textContent?.replace('corporate_fare', '').trim(),
-                  location: locationSpan?.textContent?.replace('place', '').trim(),
+                  job_location: locationSpan?.textContent?.replace('place', '').trim(),
                   level:jobLevel
                 };
               });
@@ -119,7 +119,7 @@ class googleScraper {
                 const paragraphs = Array.from(responsibilitiesSection.querySelectorAll('li'))
                 .map(p => p.textContent.trim());            
                 return {
-                    rensponsibilities: paragraphs
+                    responsibilities: paragraphs   
                 };
             });
             // console.log(responsibilities);
@@ -177,6 +177,45 @@ class googleScraper {
         return maxPage;
     }
 
+    uniInterface(job) {
+        const keysToExtract = [
+            "minimum_qualifications",
+            "preferred_qualifications",
+            "about_the_job",
+            "responsibilities"
+          ];
+
+        const job_description = {};
+
+        for (const key of keysToExtract) {
+            if (job.hasOwnProperty(key)) {
+                job_description[key] = job[key];
+            }
+        }
+
+        const [cityState, country] = job.job_location.split(',').map(part => part.trim());
+        const cityStateParts = cityState.split(' ');
+        const state = cityStateParts[1]; 
+        const city = cityStateParts[0]; 
+
+        return {
+          job_title: job.job_title,
+          company: job.company,
+          city:city,
+          state:state,
+          country:country,
+          location: job.job_location,
+          job_description: job_description,
+          apply_url: job.url,
+          job_level: job.level ? job.level : null,
+          job_type: job.job_type ? job.job_type: null,
+          salary: job.salary ?  job.salary: null,
+          published_at: job.published_date ? job.published_date: null,
+          due_at: job.due_date ? job.due_date: null,
+          scraped_at: new Date()
+        };
+      }
+
     async startScraping() {
         const jobPosts = [];
 
@@ -184,6 +223,8 @@ class googleScraper {
 
         const maxPage = await this.maxPageNumber(browser);
         console.log("max page", maxPage);
+
+        //Test single page list
         const urls = await this.listPageScraping(browser, 1);
         await Promise.all(
             urls.map(async url => {
@@ -219,6 +260,11 @@ class googleScraper {
             }
           )
 
+        const transformedJobs = await Promise.all(
+            jobPosts.map(item =>
+                this.uniInterface(item)) 
+          );
+        return transformedJobs;
     }
 }
 
