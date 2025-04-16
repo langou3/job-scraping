@@ -1,21 +1,30 @@
 const kpmgScraper = require("./kpmg/kpmgScraper"); // Import the config
 const fs = require('fs');
+// const { S3 } = require('@aws-sdk/client-s3');
 const AWS = require('aws-sdk');
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const _ = require('lodash');
-const googleScraper = require("./google/googleScraper");
 // 初始化AWS服务
-// const s3 = new AWS.S3();
+const s3 = new AWS.S3();
 
 // 获取当前日期用于S3路径
-const now = new Date();
-const year = now.getFullYear();
-const month = String(now.getMonth() + 1).padStart(2, '0');
-const day = String(now.getDate()).padStart(2, '0');
+const date = new Date();
+const now = {
+  year: date.getFullYear(),
+  month:String(date.getMonth() + 1).padStart(2, '0'),
+  day:String(date.getDate()).padStart(2, '0'),
+}
+const yesterdayDate = new Date(date);
+yesterdayDate.setDate(yesterdayDate.getDate() - 1);
+const yesterday  ={
+  year: yesterdayDate.getFullYear(),
+  month:String(yesterdayDate.getMonth() + 1).padStart(2, '0'),
+  day:String(yesterdayDate.getDate()).padStart(2, '0'),
+}
 
 const uri = "mongodb+srv://difanw08:X8vEt2bz5V1xRnzN@difandb.qnzgrip.mongodb.net/?retryWrites=true&w=majority&appName=difanDB";
 const dbName = "scraped_jobs";
-const collectionName = "google";
+const collectionName = "KPMG";
 
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
@@ -37,7 +46,8 @@ const validCities = [
   'Brisbane',
   'Adelaide',
   'Hobart',
-  'Perth'
+  'Perth',
+  'Canberra'
 ];
 
 async function connectToDatabase() {
@@ -52,80 +62,31 @@ async function connectToDatabase() {
   return database;
 }
 
-// Check if the city is a valid Australian city
-const isValidCity = (city) =>
-  validCities.includes(city);
-
-const isValidString = (str) =>
-  typeof str === 'string' && str.length > 0;
-
-// Utility functions
-const stripHtml = (html) =>
-  typeof html === 'string' ? html.replace(/<[^>]*>?/gm, '').trim() : '';
-
-const transformJob = (job) => {
-  if (
-    !isValidString(job.job_title) ||
-    !isValidString(job.company) ||
-    !isValidString(job.city) ||
-    // !isValidString(stripHtml(job.job_description)) ||
-    !isValidCity(job.city) 
-  ) {
-    return null;
-  }
-  return job;
-}
-
-
-async function updateJobs(collection, newJobs) {
-  // const newApplyLinks = new Set(newJobs.map(job => job.apply_url));
-  for (const job of newJobs) {
-      const applyLink = job.apply_url;
-      console.log(applyLink);
-
-      const existingJob = await collection.findOne({ apply_url: applyLink});
-
-      if (existingJob) {
-          const changes = {};
-          for (const key of Object.keys(job)) {
-            if (key === 'scraped_at') continue;
-              if (existingJob[key] !== job[key]) {
-                  console.log(existingJob[key]);
-                  console.log(job[key]);
-
-                  changes[key] = job[key];
-              }
-          }
-
-          if (Object.keys(changes).length > 0) {
-              await collection.updateOne(
-                  { apply_url: applyLink},
-                  { $set: changes }
-              );
-              console.log(`Successfully update${job.job_title} in ${job.company}: ${Object.keys(changes).join(', ')}`);
-          } 
-      } else {
-          await collection.insertOne(job);
+async function checkUpdates(jobList){
+    // check if there exists yesterday data
+    const getParams = {
+      Bucket: 'difan-job-scrape',
+      Key: `raw_data/${yesterday.year}/${yesterday.month}/${yesterday.day}/KPMG.json`,  
+    }
+    try {
+      const headCode = await s3.headObject(getParams).promise();
+    } catch (headErr) {
+      if (headErr.code === 'NotFound'){
+        return jobList;
       }
-  }
+    }
+    const data = await s3.getObject(getParams)?.promise();
+    const yesterdayData = json.parse(data?.Body.toString('utf-8'));
+
+    //return comparison 
+    const yesterdayUrls = yesterdayData.map(job => job.job_url);
+    const todayUrls = jobList.map(job => job.job_url);
+    const newUrls = _.difference(todayUrls,yesterdayUrls);
+    const newJobs = jobList.filter(job => _.includes(newUrls, job.job_url));
+    return newJobs;
 }
 
-async function deleteExpiredJobs(collection, newJobs) {
-  const companyName = newJobs[0].company;
-  const newApplyLinks = new Set(newJobs.map(job => job.apply_url));
-
-  const existingJobs = await collection.find({ company:  companyName}).toArray();
-  const existingApplyLinks = new Set(existingJobs.map(job => job.apply_url));
-
-  const expiredApplyLinks = Array.from(existingApplyLinks).filter(link => !newApplyLinks.has(link));
-
-  for (const applyLink of expiredApplyLinks) {
-      const result = await collection.deleteOne({ apply_url: applyLink });
-  }
-  console.log(`${expiredApplyLinks.length} expired Jobs have been deleted`);
-}
-
-async function saveMongoDB(jobs) {
+async function saveMongoDB(newjobs) {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     const db = await connectToDatabase();
@@ -134,8 +95,21 @@ async function saveMongoDB(jobs) {
 
     await collection.createIndex({ apply_url: 1 }, { unique: true });
 
-    await updateJobs(collection, jobs);
-    await deleteExpiredJobs(collection, jobs);
+    const jobsWithTimestamps = newjobs.map(job => ({
+      ...job,
+      updatedAt: new Date()
+    }));
+
+    if (Array.isArray(jobsWithTimestamps)) {
+      // If JSON is an array, insert multiple documents
+      console.log("Start saving");
+      result = await collection.insertMany(jobsWithTimestamps);
+    } else {
+      // If JSON is an object, insert a single document
+      result = await collection.insertOne(jobsWithTimestamps);
+    }
+    console.log(`Inserted ${result.insertedCount} documents into MongoDB`);
+    return result;
 
   } finally {
     // Ensures that the client will close when you finish/error
@@ -145,12 +119,18 @@ async function saveMongoDB(jobs) {
 
 async function main() {
   try {
-    scraper = new googleScraper();
-    const searchJobs = await scraper.startScraping();
-    // const searchJobs = await scraper.startScraping(); 
-    const cleanedJobs = searchJobs.map(transformJob).filter((job) => job !== null);
-    saveMongoDB(cleanedJobs);
-
+    scraper = new kpmgScraper();
+    const jobList = await scraper.startScraping();
+    if (!_.isEmpty(jobList)){
+      const newJobs = await checkUpdates(jobList);
+      const transformedJobs = await Promise.all(
+        newJobs.map(item =>
+          scraper.uniInterface(item)) 
+      );
+      const result = await saveMongoDB(transformedJobs);
+      console.log(result);
+    }
+    
   } catch (error) {
     console.error("Error:", error);
   }

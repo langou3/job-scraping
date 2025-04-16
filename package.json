@@ -10,7 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.787.0",
+    "@aws-sdk/lib-storage": "^3.787.0",
     "aws-sdk": "^2.1692.0",
+    "cheerio": "^1.0.0",
+    "entities": "^6.0.0",
     "lodash": "^4.17.21",
     "mongodb": "^6.15.0",
     "puppeteer": "^24.6.0",
